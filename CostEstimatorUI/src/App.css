@@ -1,0 +1,496 @@
+form {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #fff8f1; /* Soft warm background */
+    border-radius: 25px; /* More rounded edges */
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+    font-family: 'Poppins', sans-serif; /* Modern and smooth font */
+}
+
+label {
+    display: block;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #7c2d12; /* Dark warm brown-orange */
+}
+
+select,
+input {
+    width: 100%;
+    padding: 14px 18px;
+    margin-top: 8px;
+    border: 2px solid #fdba74; /* Light orange border */
+    border-radius: 15px; /* More rounded edges */
+    font-size: 16px;
+    background: white;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+select:focus,
+input:focus {
+    border-color: #f97316; /* Bright orange focus */
+    box-shadow: 0 0 8px rgba(249, 115, 22, 0.3);
+}
+
+button {
+    margin-top: 35px;
+    padding: 16px;
+    width: 100%;
+    background: linear-gradient(135deg, #f97316, #ea580c); /* Orange gradient */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px; /* More rounded button */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ea580c, #c2410c);
+    transform: translateY(-2px);
+}
+select,
+input {
+    width: 100%;
+    padding: 14px 18px;
+    margin-top: 8px;
+    border: 2px solid #fdba74;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; /* Added here so options inherit */
+    background: white;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+option {
+    font-family: 'Poppins', sans-serif; /* Force font for dropdown items */
+    font-size: 16px;
+    padding: 10px; /* Some browsers respect this */
+}
+.form-container {
+  padding: 30px;
+  max-width: 450px;
+  margin: auto;
+  background-color: #fff5e6;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #ff7f00;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: "Segoe UI", sans-serif;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: "Segoe UI", sans-serif;
+  box-sizing: border-box;
+}
+
+select option {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff7f00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #e67300;
+}
+
+.cost-display {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ffe0b3;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #cc6600;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}.background-container {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+  padding: 20px;
+}
+
+/* Bigger form */
+.large-form {
+  max-width: 750px;
+  width: 100%;
+  padding: 50px;
+  background: #fff8f1;
+  border-radius: 25px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.large-form h2 {
+  text-align: center;
+  color: #f97316;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.large-form label {
+  display: block;
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #7c2d12;
+}
+
+.large-form select,
+.large-form input {
+  width: 100%;
+  padding: 16px 20px;
+  margin-top: 8px;
+  border: 2px solid #fdba74;
+  border-radius: 15px;
+  font-size: 18px;
+  background: white;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.large-form select:focus,
+.large-form input:focus {
+  border-color: #f97316;
+  box-shadow: 0 0 8px rgba(249, 115, 22, 0.3);
+}
+
+.large-form option {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.large-form button {
+  margin-top: 35px;
+  padding: 18px;
+  width: 100%;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.large-form button:hover {
+  background: linear-gradient(135deg, #ea580c, #c2410c);
+}
+
+.cost-display {
+  margin-top: 30px;
+  padding: 18px;
+  background-color: #ffe0b3;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #cc6600;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.large-form .cost-display {
+  margin-top: 30px;
+  padding: 18px;
+  background-color: #ffe0b3;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #cc6600;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.button-row button {
+  flex: 1; /* Equal width */
+  padding: 18px;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button-row button:hover {
+  background: linear-gradient(135deg, #ea580c, #c2410c);
+  transform: translateY(-2px);
+}
+.detailed-bill-btn {
+  margin-top: 15px;
+  padding: 14px;
+  width: 100%;
+  background: linear-gradient(135deg, #16a34a, #15803d);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.detailed-bill-btn:hover {
+  background: linear-gradient(135deg, #15803d, #14532d);
+  transform: translateY(-2px);
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal content */
+.modal-content {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-content h3 {
+  margin-bottom: 15px;
+  color: #f97316;
+}
+
+.modal-content button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #f97316;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background: #ea580c;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
+
+.bill-btn {
+  margin-left: 10px;
+  padding: 8px 14px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.bill-btn:hover {
+  background: #15803d;
+}
+
+.modal-overlay {
+  position: fixed; /* stays above all content */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; /* super high to be above everything */
+}
+
+.modal-content {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  animation: popIn 0.3s ease-out;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.85); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+
+
+.background-container {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.button-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.items-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.item-box {
+  background: #f9f9f9;
+  padding: 12px 16px;
+  margin: 6px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.item-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.action-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 80px;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.edit-btn {
+  background: #f4b690;
+}
+
+.delete-btn {
+  background: #ff4d4d;
+}
+
+.btn-text {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.show-text .btn-text {
+  opacity: 1 !important;
+}
+
+/* Cost display styling */
+.cost-display {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Modal styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+}
+.modal-content h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
